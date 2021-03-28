@@ -1,0 +1,222 @@
+/****************************** ELEMENTS DESIGN ******************************/
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
+}
+
+p {
+  color: #949188;
+  margin: 0 50px 16px;
+}
+
+.title-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  padding-bottom: 30px;
+}
+
+.testimonial-text {
+  margin: 0 15% 5%;
+}
+
+.colored-backgd {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.uncolored-backgd {
+  background-color: #fff;
+  color: #000;
+}
+
+/******************************* CLASSES DESIGN *******************************/
+.container-fluid {
+  background-color: #ff4c68;
+  padding: 3% 15%;
+}
+
+.row {
+  padding-top: 10%;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+}
+
+.nav-item {
+  font-size: 1.2rem;
+  font-weight: lighter;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.features-icons {
+  color: #ff9999;
+  margin-bottom: 10px;
+}
+
+.col_1 {
+  padding: 0 0 0 150px;
+}
+
+.col_2 {
+  padding: 0 100px;
+}
+
+.col_3 {
+  padding: 0 150px 0 0;
+}
+
+.features-icons:hover {
+  color: #ff006a;
+}
+
+.row {
+  margin: 0;
+}
+
+.press_img {
+  width: 10%;
+}
+
+.carousel-item {
+  padding: 10% 15%;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin-right: 2%;
+}
+
+.free_plan:hover {
+  background-color: #343a40;
+}
+
+.pricing_sec {
+  padding-top: 80px;
+}
+
+.pricing_row {
+  padding: 70px;
+}
+
+.container-features {
+  width: 100%;
+  height: 300px;
+}
+
+.download-btn {
+  margin-right: 20px;
+}
+
+.social-media {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.center-class {
+  text-align: center;
+}
+
+/***************************** IDENTITIES DESIGN *****************************/
+#first_img {
+  transform: rotate(25deg);
+  margin-top: 20px;
+}
+
+#testimonials {
+  background-color: #ff9999;
+  margin-top: 7%;
+}
+
+.col-lg-6 img {
+  width: 55%;
+}
+
+.title-div {
+  padding-left: 0;
+  text-align: left;
+}
+
+#press {
+  background-color: #ff9999;
+  padding-bottom: 5%;
+}
+
+#pricing {
+  padding: 10px;
+}
+
+#h2_pricing {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+#title {
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+}
+
+#features {
+  z-index: 1;
+  margin-top: 600px;
+}
+
+#cta {
+  padding: 100px 300px 150px;
+}
+
+#cta-h3 {
+  font-size: 3rem;
+  margin-bottom: 70px;
+  line-height: 1.5;
+}
+
+#footer {
+  padding: 100px 0 20px;
+}
+
+/**************************** MEDIA RESPONSIVENESS ****************************/
+@media (max-width: 1028px) {
+  .title-div {
+    text-align: center;
+  }
+
+  #title {
+    z-index: 2;
+  }
+
+  #features {
+    margin: 1250px auto 300px;
+  }
+
+  .col_1,
+  .col_2,
+  .col_3,
+  .container-features {
+    padding: 0;
+  }
+
+  .download-btn {
+    margin: 0;
+  }
+
+  #first_img {
+    transform: rotate(0);
+    position: static;
+  }
+}
