@@ -1,4 +1,4 @@
-The site is published at https://tasneemzh.github.io/Dogs-Website/
+The site is published at https://tasneemzh.github.io/TinDog-For-Dogs/
 
 
 HTML + CSS + Bootstrap + Responsive
